@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="pers.zjf.mapper.TMessageMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="pers.zjf.entity.TMessage">
+        <id column="message_id" property="messageId" />
+        <result column="user_id$1" property="userId$1" />
+        <result column="user_id$2" property="userId$2" />
+        <result column="message_text" property="messageText" />
+    </resultMap>
+
+</mapper>

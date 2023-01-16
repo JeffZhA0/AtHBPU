@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="pers.zjf.mapper.TUserMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="pers.zjf.entity.TUser">
+        <id column="user_id" property="userId" />
+        <result column="user_regist_time" property="userRegistTime" />
+        <result column="user_email" property="userEmail" />
+        <result column="user_last_logon_time" property="userLastLogonTime" />
+        <result column="user_password" property="userPassword" />
+        <result column="user_nickname" property="userNickname" />
+        <result column="user_gender" property="userGender" />
+        <result column="user_introduce" property="userIntroduce" />
+        <result column="user_phone_number" property="userPhoneNumber" />
+    </resultMap>
+
+</mapper>

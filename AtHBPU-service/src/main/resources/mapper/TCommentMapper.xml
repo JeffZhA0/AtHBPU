@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="pers.zjf.mapper.TCommentMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="pers.zjf.entity.TComment">
+        <id column="comment_id" property="commentId" />
+        <result column="user_id" property="userId" />
+        <result column="comment_time" property="commentTime" />
+        <result column="comment_delete" property="commentDelete" />
+        <result column="blog_id" property="blogId" />
+        <result column="comment_reply" property="commentReply" />
+        <result column="user_id$1" property="userId$1" />
+        <result column="comment_text" property="commentText" />
+        <result column="comment_id$1" property="commentId$1" />
+    </resultMap>
+
+</mapper>
